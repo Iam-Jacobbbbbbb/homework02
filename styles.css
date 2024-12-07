@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.background{
+    background: linear-gradient(to bottom, #000000bb, #00000022, #000000bb), 
+     url('./img/BG.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+header .icon h1{
+    margin: 0px;
+    color: #e50914;
+    font-size: 24px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header .logo h1 {
+    color: #e50914;
+    font-size: 24px;
+    margin: 0;
+}
+
+.lang button{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lang .sign {
+    background-color: #e50914;
+    font-weight: bold;
+
+}
+
+.content{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.content h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.content h3{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.box{
+    justify-content: center;
+
+}
+.box input{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: #FFF;
+    background-color: #000000bb;    
+    margin-right: 10px;
+}
+
+.box button{
+    background-color: #e50914;
+    color:#FFF;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
